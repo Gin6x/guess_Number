@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyContainer {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20x;
+    height: 100vh;
+}
+
+.topViewContainer {
+    background-color: white;
+    width: 60vw;
+    height: 95vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightslategray;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.questionBox {
+    background-color: cyan;
+    width: 35vw;
+    height: 20vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightslategray;
+    border-radius: 15px;
+    padding: 20px;
+}
