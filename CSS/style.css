@@ -27,12 +27,29 @@
 }
 
 .questionBox {
-    background-color: cyan;
+    background-color: white;
     width: 35vw;
     height: 20vh;
     border-width: 2px;
     border-style: solid;
     border-color: lightslategray;
     border-radius: 15px;
-    padding: 20px;
+    padding: 5px;
+}
+
+.typing {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    border-right: 2px solid #000; /* Cursor effect */
+    font-size: 24px;
+    animation: typing 2s steps(40) 1s 1 normal both; /* Typing animation */
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
 }
